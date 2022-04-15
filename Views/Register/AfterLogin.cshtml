@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "AfterLogin";
+}
+@if (Session["UserID"] != null)
+{
+    <div>
+        <a herf="/Register/Logout">Logout</a>
+    </div>
+}
